@@ -1,107 +1,105 @@
-Netflix Clone Built with React.js & Firebase
-This project is a Netflix clone developed using React.js for the frontend and Firebase for the backend. While it doesn't replicate all the features of the original Netflix website, it showcases a similar design and functionality, highlighting my skills in building advanced web applications with React.js. The clone includes a home page, sign-in page, sign-up page, browse page, and a basic movie player.
 
-Table of Contents
-Project Walk-Through
-Home Page
-Sign-in Page
-Sign-up Page
-Browse Page
-Technology Used
-How To Use
-Show Your Support
-Acknowledgments
-License
-Project Walk-Through
-Home Page
-The Home Page includes five main sections:
+# Netflix Clone Built with React.js & Firebase
 
-Header:
+This project is a Netflix clone developed using **React.js** for the frontend and **Firebase** for the backend. While it doesn't replicate all the features of the original Netflix website, it showcases a similar design and functionality, highlighting my skills in building advanced web applications with React.js. The clone includes a home page, sign-in page, sign-up page, browse page, and a basic movie player.
 
-Contains the logo (redirects to the home page) and a sign-in button (redirects to the sign-in page).
-Displays a feature title and subtitle.
-Optform:
+## Table of Contents
 
-A text input field with a button that redirects to the sign-up page.
-Jumbotron:
+- [Project Overview](#project-overview)
+- [Technology Used](#technology-used)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Displays images and text highlighting the advantages of Netflix, with data sourced from a JSON file.
-Frequently Asked Questions:
+## Project Overview
 
-An accordion-style FAQ section with questions and answers, also sourced from a JSON file.
-Footer:
+This Netflix clone project is a web application that mimics the look and feel of Netflix, allowing users to browse and play movies. The project includes:
 
-Contains useful links for users.
-The page is fully responsive, adapting to all screen sizes, including mobile devices.
+- **Home Page:** An introductory page with details about the service and links to sign up or sign in.
+- **Sign-in Page:** A page where users can log in with their credentials.
+- **Sign-up Page:** A page for new users to create an account.
+- **Browse Page:** A page displaying a variety of movies, categorized by genres, with the ability to play videos.
 
-Sign-in Page
-The Sign-in Page includes three main sections:
+The application is fully responsive, ensuring a seamless experience across all devices.
 
-Header:
+## Technology Used
 
-Contains the logo, redirecting to the home page.
-Sign-in Form:
+This project was built using the following technologies:
 
-Includes fields for email and password, with a sign-in button that is activated only when the form is completed. It also features error handling.
-Footer:
+- **React.js:** A JavaScript library for building user interfaces.
+- **Firebase:** A platform developed by Google for creating mobile and web applications.
+- **CSS Modules:** A CSS file in which all class and animation names are scoped locally by default.
+- **VSCode:** A source-code editor made by Microsoft.
+- **GitHub Actions:** A CI/CD service for automating workflows.
+- **GitHub Pages:** A static site hosting service that takes HTML, CSS, and JavaScript files directly from a repo on GitHub.
 
-Contains useful links for users.
-The page is fully responsive for all devices.
+## Features
 
-Sign-up Page
-The Sign-up Page includes three main sections:
+- **Responsive Design:** The app adapts to different screen sizes, providing an optimal viewing experience on desktops, tablets, and mobile devices.
+- **User Authentication:** Users can sign up and log in to access the browsing features.
+- **Movie Browsing:** Users can browse movies categorized by genre, with details fetched from Firebase.
+- **Video Playback:** Users can play movies directly within the app.
 
-Header:
+## Getting Started
 
-Contains the logo, redirecting to the home page.
-Sign-up Form:
+To get a local copy up and running, follow these simple steps.
 
-Includes fields for first name, email, and password, with a sign-up button that activates only when the form is completed. It also features error handling.
-Footer:
+### Prerequisites
 
-Contains useful links for users.
-The page is fully responsive for all devices.
+Make sure you have the following installed:
 
-Browse Page
-The Browse Page includes six main sections:
+- Node.js
+- npm or Yarn
+- Firebase Account
 
-Header:
+### Installation
 
-Contains the logo and category links to filter content by movies or series.
-Displays the title and description of a featured movie, along with a play button.
-Movies Slides:
+1. Clone the repository:
 
-Displays movies by genre, with information retrieved from the Firebase database.
-Movie Card:
+   ```bash
+   git clone https://github.com/Harsharajreddy/Netflix-clone-react.git
+   ```
 
-Each movie is represented by an image that enlarges on hover, showing additional details.
-Card Feature:
+2. Navigate to the project directory:
 
-Provides more detailed information about a selected movie, with an option to play the movie.
-Video Player:
+   ```bash
+   cd Netflix-clone-react
+   ```
 
-A fully functional video player that overlays the screen and follows scrolling.
-Footer:
+3. Install the dependencies:
 
-Contains useful links for users.
-The page is fully responsive for all devices.
+   ```bash
+   npm install
+   ```
 
-Technology Used
-This project was built using:
+4. Set up Firebase:
 
-React.js
-Firebase
-CSS Modules
-VSCode
-GitHub Actions & Pages
-How To Use
-To use this project locally, you’ll need to clone the repository, install the necessary dependencies, and configure Firebase for backend functionality.
+   - Create a Firebase project in your Firebase console.
+   - Enable Firebase Authentication and Firestore.
+   - Replace the Firebase config in `src/firebase.js` with your own Firebase project credentials.
 
-Show Your Support
-Give a ⭐️ if you like this project!
+5. Start the development server:
 
-Acknowledgments
-Thanks to everyone who contributed to my learning and the development of this project.
+   ```bash
+   npm start
+   ```
 
-License
-This project is licensed under the MIT License.
+6. Open your browser and go to `http://localhost:3000` to view the app.
+
+## Usage
+
+- **Home Page:** Learn more about the service and sign up or sign in.
+- **Sign-in/Sign-up Pages:** Create an account or log in with existing credentials.
+- **Browse Page:** Explore movies categorized by genres and watch them directly in the app.
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
